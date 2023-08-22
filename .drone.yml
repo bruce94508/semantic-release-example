@@ -32,7 +32,7 @@ steps:
       GIT_CREDENTIALS:
         from_secret: bitbucket_username_password
     commands:
-      - npx --yes --package=@semantic-release/changelog@^6.0.3 --package=@semantic-release/git@10.0.1 semantic-release@^21.0.9
+      - npx --yes --package=@semantic-release/changelog@^6.0.3 --package=@semantic-release/git@10.0.1 --package=semantic-release@^21.0.9 semantic-release
     when:
       branch:
         - master
