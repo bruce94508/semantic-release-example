@@ -1,4 +1,4 @@
-# semantic-release-template  
+# semantic-release-example  
 semantic-release with drone ci use case
 
 # semantic-release
@@ -77,7 +77,7 @@ semantic-release with drone ci use case
 
 ### install
  - npm install 依照 package.json devDependencies 安裝特定版本 semantic-release 及插件
- - 也可以不事先安裝，在 release 階段隨裝隨用
+ - 內建插件 @semantic-release/commit-analyzer、@semantic-release/release-notes-generator、@semantic-release/npm 不須特地安裝
 
 ### release
  - 觸發條件: 推送到 master 或 release 分支時觸發
@@ -85,8 +85,7 @@ semantic-release with drone ci use case
    - GIT_CREDENTIALS: 格式 username:password，需進bitbucket帳號個人設定頁面產生
    - 詳 drone.yml 範例
  - npx semantic-release
-   - 將會優先使用本地已安裝的套件
-   - 若無，則會下載最新版本
+   - 將會優先使用本地已安裝的套件；若無，則會下載最新版本
    - 可以 npx semantic-release@17.4.2 指定套件版本
 
 ### push; publish
