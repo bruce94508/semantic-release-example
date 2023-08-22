@@ -1,3 +1,15 @@
+# [1.1.0-beta.1](https://bitbucket.org/maxwin-inc/semantic-release-example/compare/1.0.1...1.1.0-beta.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* 修正 drone release 流程以 release/* 觸發 ([006528d](https://bitbucket.org/maxwin-inc/semantic-release-example/commits/006528d33b4ef0b65cccb910c457cf5df8ab7d71))
+
+
+### Features
+
+* 模擬新增功能 ([47e70e9](https://bitbucket.org/maxwin-inc/semantic-release-example/commits/47e70e92025809c04d5a257965a34a475a64b676))
+
 ## [1.0.1](https://bitbucket.org/maxwin-inc/semantic-release-example/compare/1.0.0...1.0.1) (2023-08-22)
 
 
