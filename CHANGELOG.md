@@ -1,3 +1,15 @@
+# [2.0.0-beta.1](https://bitbucket.org/maxwin-inc/semantic-release-example/compare/1.1.0-beta.1...2.0.0-beta.1) (2023-08-22)
+
+
+### Features
+
+* 模擬重大更新 ([54c63fd](https://bitbucket.org/maxwin-inc/semantic-release-example/commits/54c63fd9ce4c74980274a6a4d74f5adb3e0ded83))
+
+
+### BREAKING CHANGES
+
+* <jira issue id>
+
 # [1.1.0-beta.1](https://bitbucket.org/maxwin-inc/semantic-release-example/compare/1.0.1...1.1.0-beta.1) (2023-08-22)
 
 
