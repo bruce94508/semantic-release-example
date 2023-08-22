@@ -86,7 +86,8 @@ semantic-release with drone ci use case
    - 詳 drone.yml 範例
  - npx semantic-release
    - 將會優先使用本地已安裝的套件；若無，則會下載最新版本
-   - 可以 npx semantic-release@17.4.2 指定套件版本
+   - 可以 npx semantic-release@{version} 指定套件版本
+   - 非內建插件需以 --package=pkgName@version 傳入
 
 ### push; publish
  - 觸發條件: 打版號標籤
