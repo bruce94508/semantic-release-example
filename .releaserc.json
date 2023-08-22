@@ -32,5 +32,5 @@
         "message": "chore(release): ${nextRelease.version} [ci skip]\n\n${nextRelease.notes}"
       }
     ]
-  ],
+  ]
 }

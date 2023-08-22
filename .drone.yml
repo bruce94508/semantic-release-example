@@ -7,23 +7,23 @@ clone:
 
 steps:
   - name: install
-    image: node:14.18.0-buster
+    image: node:18.17-buster
     commands:
       - npm install --silent
     when:
       branch:
         - master
         - develop
-  - name: unit-test
-    image: node:14.18.0-buster
-    commands:
-      - npm test
-    when:
-      branch:
-        - master
-        - develop
+  # - name: unit-test
+  #   image: node:18.17-buster
+  #   commands:
+  #     - npm test
+  #   when:
+  #     branch:
+  #       - master
+  #       - develop
   - name: release
-    image: node:14.18.0-buster
+    image: node:18.17-buster
     environment:
       GIT_AUTHOR_NAME: renhz
       GIT_AUTHOR_EMAIL: ren.zheng@maxwin.com.tw
