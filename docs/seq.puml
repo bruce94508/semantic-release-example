@@ -1,0 +1,45 @@
+@startuml "semantic-release-example seq"
+title "semantic-release-example sequence diagram"
+skinparam DefaultTextAlignment left
+
+actor "developer PC" as developer
+participant Bitbucket [
+  =Bitbucket
+  ----
+  git server
+]
+participant Drone [
+  =Drone
+  ----
+  steps:
+  1.install 2.test
+  3.release 4.publish
+]
+participant Registry [
+  =Registry
+  ----
+  Docker Private
+  Registry
+]
+participant Docker [
+  =Docker
+  ----
+  Docker Host
+]
+participant Kubernetes [
+  =Kubernetes
+]
+
+developer -> Bitbucket: push commit\nwith drone.yml
+Bitbucket -> Drone : webhook for release
+Drone -> Drone: CI: Continuous integration\ninstall, test
+Drone -[#blue]> Drone : <font color=blue>use sementic-release</font>
+Drone -> Bitbucket : tag for version
+Bitbucket -> Drone : webhook for publish
+Drone -> Drone: use Docker plugin\nto build image
+Drone -> Registry: push image\nCD: Delivery
+Registry -> Docker: pull image\nCD: Deployment
+Registry -> Kubernetes: pull image\nCD: Deployment
+
+
+@enduml
