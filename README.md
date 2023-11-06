@@ -1,7 +1,12 @@
 # semantic-release-example  
 semantic-release with drone ci use case
 
-# semantic-release
+## prerequisites
+
+1. [Git (ch.1 - ch.3)](https://git-scm.com/book)
+1. [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+## semantic-release
 
  用於自動化的管理語意化版本、套件發行，它定義如下release steps
  1. 驗證執行條件*
