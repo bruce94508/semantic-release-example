@@ -29,8 +29,8 @@ steps:
       GIT_AUTHOR_EMAIL: ren.zheng@maxwin.com.tw
       GIT_COMMITTER_NAME: ${DRONE_COMMIT_AUTHOR_NAME}
       GIT_COMMITTER_EMAIL: ${DRONE_COMMIT_AUTHOR_EMAIL}
-      GIT_CREDENTIALS:
-        from_secret: bitbucket_username_password
+      # GIT_CREDENTIALS:
+      #   from_secret: bitbucket_username_password
     commands:
       - npx --yes --package=@semantic-release/changelog@^6.0.3 --package=@semantic-release/git@10.0.1 --package=semantic-release@^21.0.9 semantic-release
     when:

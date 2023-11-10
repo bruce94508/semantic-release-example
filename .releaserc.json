@@ -1,5 +1,5 @@
 {
-  "repositoryUrl": "git@bitbucket.org:maxwin-inc/semantic-release-example.git",
+  "repositoryUrl": "https://github.com/bruce94508/semantic-release-example.git",
   "branches": [
     "master",
     { "name": "release/*", "channel": "release", "prerelease": "beta" }
