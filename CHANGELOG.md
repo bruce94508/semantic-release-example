@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bruce94508/semantic-release-example/compare/1.0.1...1.1.0) (2023-11-13)
+
+
+### Features
+
+* 新增test.js ([a0ca5f2](https://github.com/bruce94508/semantic-release-example/commit/a0ca5f2a855470159c7d016d23c2a50ce2e3e102))
+
 ## [1.0.1](https://github.com/bruce94508/semantic-release-example/compare/1.0.0...1.0.1) (2023-11-13)
 
 
