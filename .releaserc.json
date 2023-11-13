@@ -4,6 +4,7 @@
     "master",
     { "name": "release/*", "channel": "release", "prerelease": "beta" }
   ],
+  "ci": false,
   "tagFormat": "${version}",
   "plugins": [
     [
