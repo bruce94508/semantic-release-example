@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bruce94508/semantic-release-example/compare/1.0.0...1.0.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* 修復測試 ([b5d86b5](https://github.com/bruce94508/semantic-release-example/commit/b5d86b5499830adf4011608c3f69d3d9558ab124))
+
 # [2.0.0](https://bitbucket.org/maxwin-inc/semantic-release-example/compare/1.0.1...2.0.0) (2023-08-22)
 
 
