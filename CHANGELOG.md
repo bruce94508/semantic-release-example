@@ -1,3 +1,10 @@
+## [2.0.1-beta.1](https://github.com/bruce94508/semantic-release-example/compare/2.0.0...2.0.1-beta.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* release test ([919460f](https://github.com/bruce94508/semantic-release-example/commit/919460f3ef3e9111e2f265ace522c9cae7bd3d43))
+
 # [2.0.0](https://github.com/bruce94508/semantic-release-example/compare/1.1.0...2.0.0) (2023-11-13)
 
 
