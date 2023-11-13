@@ -1,3 +1,39 @@
+# [2.0.0](https://github.com/bruce94508/semantic-release-example/compare/1.1.0...2.0.0) (2023-11-13)
+
+
+### Features
+
+* 測試breaking change ([b90f575](https://github.com/bruce94508/semantic-release-example/commit/b90f57597d1072bb99c5bdcd73e36aedd3e0b209))
+
+
+### BREAKING CHANGES
+
+* <jira>
+
+# [2.0.0](https://github.com/bruce94508/semantic-release-example/compare/1.1.0...2.0.0) (2023-11-13)
+
+
+### Features
+
+* 測試breaking change ([b90f575](https://github.com/bruce94508/semantic-release-example/commit/b90f57597d1072bb99c5bdcd73e36aedd3e0b209))
+
+
+### BREAKING CHANGES
+
+* <jira>
+
+# [2.0.0](https://github.com/bruce94508/semantic-release-example/compare/1.1.0...2.0.0) (2023-11-13)
+
+
+### Features
+
+* 測試breaking change ([b90f575](https://github.com/bruce94508/semantic-release-example/commit/b90f57597d1072bb99c5bdcd73e36aedd3e0b209))
+
+
+### BREAKING CHANGES
+
+* <jira>
+
 # [1.1.0](https://github.com/bruce94508/semantic-release-example/compare/1.0.1...1.1.0) (2023-11-13)
 
 
